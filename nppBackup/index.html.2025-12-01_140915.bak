@@ -3,22 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="No-talking ASMR trigger videos for sleep and relaxation. Featuring paper, writing, scratching, and crinkly sounds.">
-    <meta name="keywords" content="ASMR, no talking ASMR, sleep sounds, relaxation, paper sounds, writing ASMR, scratching sounds, crinkly ASMR">
+    <meta name="description" content="No-talking ASMR trigger videos for sleep and relaxation. Paper sounds, writing, scratching, and crinkly ASMR triggers.">
+    <meta name="keywords" content="ASMR, sleep, relaxation, paper sounds, writing ASMR, scratching, crinkly sounds, no talking ASMR, triggers">
     <meta name="author" content="Your Name">
     
     <!-- Open Graph / Social Media -->
     <meta property="og:type" content="website">
-    <meta property="og:title" content="ASMR for Sleep & Relaxation">
-    <meta property="og:description" content="No-talking ASMR trigger videos for sleep and relaxation. Featuring paper, writing, scratching, and crinkly sounds.">
+    <meta property="og:title" content="ASMR Sleep & Relaxation - Paper, Writing & Crinkly Sounds">
+    <meta property="og:description" content="No-talking ASMR trigger videos for sleep and relaxation. Soothing paper sounds, writing, scratching, and crinkly triggers.">
     <meta property="og:url" content="https://yourusername.github.io">
     
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="ASMR for Sleep & Relaxation">
+    <meta name="twitter:title" content="ASMR Sleep & Relaxation">
     <meta name="twitter:description" content="No-talking ASMR trigger videos for sleep and relaxation.">
     
-    <title>ASMR for Sleep & Relaxation</title>
+    <title>ASMR Sleep & Relaxation - Soothing Triggers</title>
     
     <!-- External Stylesheet -->
     <link rel="stylesheet" href="css/style.css">
@@ -31,34 +31,34 @@
     {
         "@context": "https://schema.org",
         "@type": "Blog",
-        "name": "ASMR for Sleep & Relaxation",
+        "name": "ASMR Sleep & Relaxation",
         "description": "No-talking ASMR trigger videos for sleep and relaxation",
-        "url": "https://jooniemaeasmr.github.io/jooniemaeasmr/",
+        "url": "https://yourusername.github.io",
         "author": {
             "@type": "Person",
-            "name": "Joonie Mae"
+            "name": "Your Name"
         }
     }
     </script>
 </head>
 <body>
     <header>
-        <h1>ASMR for Sleep & Relaxation</h1>
-        <p>No-talking trigger videos • Paper • Writing • Scratching • Crinkly Sounds</p>
+        <h1>✨ ASMR Sleep & Relaxation</h1>
+        <p>No-talking triggers for peaceful rest</p>
     </header>
     
     <nav>
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="#about">About</a></li>
-            <li><a href="#videos">Videos</a></li>
+            <li><a href="#triggers">Triggers</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
     
     <main>
         <article itemscope itemtype="https://schema.org/BlogPosting">
-            <h2 itemprop="headline">The Art of Paper Sounds for Deep Sleep</h2>
+            <h2 itemprop="headline">📄 Paper Sounds for Deep Sleep</h2>
             <div class="meta">
                 <time datetime="2024-12-01" itemprop="datePublished">December 1, 2024</time> • 
                 <span itemprop="author" itemscope itemtype="https://schema.org/Person">
@@ -66,15 +66,15 @@
                 </span>
             </div>
             <p itemprop="description">
-                Discover the soothing world of paper ASMR. From gentle page turning to crisp paper folding, 
-                these delicate sounds create the perfect atmosphere for relaxation and sleep. Learn about 
-                different paper types and techniques that produce the most satisfying auditory experiences.
+                Discover the gentle rustling of paper sounds in this calming ASMR session. From soft page turning 
+                to delicate paper crinkling, these soothing triggers create the perfect atmosphere for relaxation 
+                and peaceful sleep.
             </p>
-            <a href="posts/sample.html">Read more →</a>
+            <a href="posts/paper-sounds-deep-sleep.html">Read more →</a>
         </article>
         
         <article itemscope itemtype="https://schema.org/BlogPosting">
-            <h2 itemprop="headline">Writing ASMR: Pen on Paper Meditation</h2>
+            <h2 itemprop="headline">✍️ Slow Writing & Scratching Sounds</h2>
             <div class="meta">
                 <time datetime="2024-11-28" itemprop="datePublished">November 28, 2024</time> • 
                 <span itemprop="author" itemscope itemtype="https://schema.org/Person">
@@ -82,15 +82,15 @@
                 </span>
             </div>
             <p itemprop="description">
-                The rhythmic scratch of pen on paper has a uniquely calming quality. Explore how different 
-                writing instruments and paper textures combine to create deeply relaxing soundscapes. 
-                Perfect for unwinding after a long day or preparing for restful sleep.
+                Experience the satisfying sounds of pen on paper and gentle scratching. The rhythmic movements 
+                and soft textures combine to create deeply relaxing ASMR triggers that help you unwind and drift 
+                off to sleep naturally.
             </p>
-            <a href="posts/writing-asmr-meditation.html">Read more →</a>
+            <a href="posts/writing-scratching-sounds.html">Read more →</a>
         </article>
         
         <article itemscope itemtype="https://schema.org/BlogPosting">
-            <h2 itemprop="headline">Crinkly Textures: Nature's Relaxation Sound</h2>
+            <h2 itemprop="headline">🎁 Crinkly Textures & Soft Sounds</h2>
             <div class="meta">
                 <time datetime="2024-11-25" itemprop="datePublished">November 25, 2024</time> • 
                 <span itemprop="author" itemscope itemtype="https://schema.org/Person">
@@ -98,15 +98,16 @@
                 </span>
             </div>
             <p itemprop="description">
-                Crinkly sounds tap into something primal and comforting. Whether it's tissue paper, 
-                plastic wrap, or natural materials, these textures create unpredictable yet soothing 
-                patterns that help quiet the mind and ease you into peaceful rest.
+                Explore the delightful world of crinkly sounds with various textures and materials. These gentle, 
+                repetitive sounds create a cocoon of comfort, perfect for those who love tactile ASMR triggers 
+                and need help relaxing.
             </p>
-            <a href="posts/crinkly-textures-relaxation.html">Read more →</a>
+            <a href="posts/crinkly-textures.html">Read more →</a>
         </article>
     </main>
     
     <footer>
+        <p>Sweet dreams and peaceful rest 💜</p>
         <p>&copy; 2024 Your Name. All rights reserved.</p>
         <p>
             <a href="https://www.youtube.com/@JoonieMaeASMR" target="_blank" rel="noopener">YouTube</a> • 
