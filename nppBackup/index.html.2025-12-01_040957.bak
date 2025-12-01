@@ -3,22 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="No-talking ASMR trigger videos for sleep and relaxation. Paper sounds, writing, scratching, and crinkly ASMR triggers.">
-    <meta name="keywords" content="ASMR, sleep, relaxation, paper sounds, writing ASMR, scratching, crinkly sounds, no talking ASMR, triggers">
+    <meta name="description" content="A personal blog covering technology, development, and creative insights. Join me on my journey through code and ideas.">
+    <meta name="keywords" content="blog, technology, web development, programming, coding">
     <meta name="author" content="Your Name">
     
     <!-- Open Graph / Social Media -->
     <meta property="og:type" content="website">
-    <meta property="og:title" content="ASMR Sleep & Relaxation - Paper, Writing & Crinkly Sounds">
-    <meta property="og:description" content="No-talking ASMR trigger videos for sleep and relaxation. Soothing paper sounds, writing, scratching, and crinkly triggers.">
+    <meta property="og:title" content="My Blog - Tech & Development">
+    <meta property="og:description" content="A personal blog covering technology, development, and creative insights.">
     <meta property="og:url" content="https://yourusername.github.io">
     
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="ASMR Sleep & Relaxation">
-    <meta name="twitter:description" content="No-talking ASMR trigger videos for sleep and relaxation.">
+    <meta name="twitter:title" content="My Blog - Tech & Development">
+    <meta name="twitter:description" content="A personal blog covering technology, development, and creative insights.">
     
-    <title>ASMR Sleep & Relaxation - Soothing Triggers</title>
+    <title>My Blog - Tech & Development</title>
     
     <!-- External Stylesheet -->
     <link rel="stylesheet" href="css/style.css">
@@ -31,8 +31,8 @@
     {
         "@context": "https://schema.org",
         "@type": "Blog",
-        "name": "ASMR Sleep & Relaxation",
-        "description": "No-talking ASMR trigger videos for sleep and relaxation",
+        "name": "My Blog",
+        "description": "A personal blog covering technology, development, and creative insights",
         "url": "https://yourusername.github.io",
         "author": {
             "@type": "Person",
@@ -43,22 +43,21 @@
 </head>
 <body>
     <header>
-        <h1>✨ ASMR Sleep & Relaxation</h1>
-        <p>No-talking triggers for peaceful rest</p>
+        <h1>My Blog</h1>
+        <p>Thoughts on technology, development, and creativity</p>
     </header>
     
     <nav>
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="#about">About</a></li>
-            <li><a href="#triggers">Triggers</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
     
     <main>
         <article itemscope itemtype="https://schema.org/BlogPosting">
-            <h2 itemprop="headline">📄 Paper Sounds for Deep Sleep</h2>
+            <h2 itemprop="headline">Getting Started with Static Site Generators</h2>
             <div class="meta">
                 <time datetime="2024-12-01" itemprop="datePublished">December 1, 2024</time> • 
                 <span itemprop="author" itemscope itemtype="https://schema.org/Person">
@@ -66,15 +65,15 @@
                 </span>
             </div>
             <p itemprop="description">
-                Discover the gentle rustling of paper sounds in this calming ASMR session. From soft page turning 
-                to delicate paper crinkling, these soothing triggers create the perfect atmosphere for relaxation 
-                and peaceful sleep.
+                Static site generators have revolutionized how we build websites. They offer the perfect balance 
+                between simplicity and functionality, allowing developers to create fast, secure, and scalable 
+                websites without the overhead of traditional CMS platforms.
             </p>
-            <a href="posts/paper-sounds-deep-sleep.html">Read more →</a>
+            <a href="posts/sample.html">Read more →</a>
         </article>
         
         <article itemscope itemtype="https://schema.org/BlogPosting">
-            <h2 itemprop="headline">✍️ Slow Writing & Scratching Sounds</h2>
+            <h2 itemprop="headline">Why GitHub Pages is Perfect for Developers</h2>
             <div class="meta">
                 <time datetime="2024-11-28" itemprop="datePublished">November 28, 2024</time> • 
                 <span itemprop="author" itemscope itemtype="https://schema.org/Person">
@@ -82,15 +81,15 @@
                 </span>
             </div>
             <p itemprop="description">
-                Experience the satisfying sounds of pen on paper and gentle scratching. The rhythmic movements 
-                and soft textures combine to create deeply relaxing ASMR triggers that help you unwind and drift 
-                off to sleep naturally.
+                GitHub Pages offers free hosting with custom domains, HTTPS, and seamless Git integration. 
+                It's an ideal solution for personal blogs, portfolios, and project documentation. Learn how 
+                to leverage this powerful platform for your next project.
             </p>
-            <a href="posts/writing-scratching-sounds.html">Read more →</a>
+            <a href="posts/github-pages-guide.html">Read more →</a>
         </article>
         
         <article itemscope itemtype="https://schema.org/BlogPosting">
-            <h2 itemprop="headline">🎁 Crinkly Textures & Soft Sounds</h2>
+            <h2 itemprop="headline">SEO Fundamentals for Static Websites</h2>
             <div class="meta">
                 <time datetime="2024-11-25" itemprop="datePublished">November 25, 2024</time> • 
                 <span itemprop="author" itemscope itemtype="https://schema.org/Person">
@@ -98,21 +97,20 @@
                 </span>
             </div>
             <p itemprop="description">
-                Explore the delightful world of crinkly sounds with various textures and materials. These gentle, 
-                repetitive sounds create a cocoon of comfort, perfect for those who love tactile ASMR triggers 
-                and need help relaxing.
+                Search engine optimization doesn't have to be complicated. With proper semantic HTML, 
+                meta tags, and structured data, your static site can rank well in search results. 
+                Discover the essential SEO techniques every developer should know.
             </p>
-            <a href="posts/crinkly-textures.html">Read more →</a>
+            <a href="posts/seo-fundamentals.html">Read more →</a>
         </article>
     </main>
     
     <footer>
-        <p>Sweet dreams and peaceful rest 💜</p>
         <p>&copy; 2024 Your Name. All rights reserved.</p>
         <p>
-            <a href="https://www.youtube.com/@JoonieMaeASMR" target="_blank" rel="noopener">YouTube</a> • 
-            <a href="https://twitter.com/yourusername" target="_blank" rel="noopener">Spotify | Podcast</a> • 
-            <a href="https://www.pinterest.com/jooniemaeasmr/">Pinterest</a>
+            <a href="https://github.com/yourusername" target="_blank" rel="noopener">GitHub</a> • 
+            <a href="https://twitter.com/yourusername" target="_blank" rel="noopener">Twitter</a> • 
+            <a href="mailto:your.email@example.com">Email</a>
         </p>
     </footer>
 </body>
