@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A personal blog covering technology, development, and creative insights. Join me on my journey through code and ideas.">
+    <meta name="keywords" content="blog, technology, web development, programming, coding">
+    <meta name="author" content="Your Name">
+    
+    <!-- Open Graph / Social Media -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="My Blog - Tech & Development">
+    <meta property="og:description" content="A personal blog covering technology, development, and creative insights.">
+    <meta property="og:url" content="https://yourusername.github.io">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="My Blog - Tech & Development">
+    <meta name="twitter:description" content="A personal blog covering technology, development, and creative insights.">
+    
+    <title>My Blog - Tech & Development</title>
+    
+    <!-- Structured Data for SEO -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Blog",
+        "name": "My Blog",
+        "description": "A personal blog covering technology, development, and creative insights",
+        "url": "https://yourusername.github.io",
+        "author": {
+            "@type": "Person",
+            "name": "Your Name"
+        }
+    }
+    </script>
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f5f5f5;
+        }
+        
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 3rem 2rem;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        header p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+        
+        nav {
+            background: white;
+            padding: 1rem 2rem;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            flex-wrap: wrap;
+        }
+        
+        nav a {
+            text-decoration: none;
+            color: #667eea;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+        
+        nav a:hover {
+            color: #764ba2;
+        }
+        
+        main {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 0 2rem;
+        }
+        
+        article {
+            background: white;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        
+        article:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 20px rgba(0,0,0,0.12);
+        }
+        
+        article h2 {
+            color: #667eea;
+            margin-bottom: 0.5rem;
+            font-size: 1.8rem;
+        }
+        
+        article .meta {
+            color: #666;
+            font-size: 0.9rem;
+            margin-bottom: 1rem;
+        }
+        
+        article p {
+            color: #555;
+            margin-bottom: 1rem;
+        }
+        
+        article a {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        
+        article a:hover {
+            text-decoration: underline;
+        }
+        
+        footer {
+            background: #2d3748;
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            margin-top: 3rem;
+        }
+        
+        footer a {
+            color: #667eea;
+            text-decoration: none;
+        }
+        
+        footer a:hover {
+            text-decoration: underline;
+        }
+        
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2rem;
+            }
+            
+            article {
+                padding: 1.5rem;
+            }
+            
+            article h2 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Blog</h1>
+        <p>Thoughts on technology, development, and creativity</p>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <article itemscope itemtype="https://schema.org/BlogPosting">
+            <h2 itemprop="headline">Getting Started with Static Site Generators</h2>
+            <div class="meta">
+                <time datetime="2024-12-01" itemprop="datePublished">December 1, 2024</time> • 
+                <span itemprop="author" itemscope itemtype="https://schema.org/Person">
+                    <span itemprop="name">Your Name</span>
+                </span>
+            </div>
+            <p itemprop="description">
+                Static site generators have revolutionized how we build websites. They offer the perfect balance 
+                between simplicity and functionality, allowing developers to create fast, secure, and scalable 
+                websites without the overhead of traditional CMS platforms.
+            </p>
+            <a href="#post1">Read more →</a>
+        </article>
+        
+        <article itemscope itemtype="https://schema.org/BlogPosting">
+            <h2 itemprop="headline">Why GitHub Pages is Perfect for Developers</h2>
+            <div class="meta">
+                <time datetime="2024-11-28" itemprop="datePublished">November 28, 2024</time> • 
+                <span itemprop="author" itemscope itemtype="https://schema.org/Person">
+                    <span itemprop="name">Your Name</span>
+                </span>
+            </div>
+            <p itemprop="description">
+                GitHub Pages offers free hosting with custom domains, HTTPS, and seamless Git integration. 
+                It's an ideal solution for personal blogs, portfolios, and project documentation. Learn how 
+                to leverage this powerful platform for your next project.
+            </p>
+            <a href="#post2">Read more →</a>
+        </article>
+        
+        <article itemscope itemtype="https://schema.org/BlogPosting">
+            <h2 itemprop="headline">SEO Fundamentals for Static Websites</h2>
+            <div class="meta">
+                <time datetime="2024-11-25" itemprop="datePublished">November 25, 2024</time> • 
+                <span itemprop="author" itemscope itemtype="https://schema.org/Person">
+                    <span itemprop="name">Your Name</span>
+                </span>
+            </div>
+            <p itemprop="description">
+                Search engine optimization doesn't have to be complicated. With proper semantic HTML, 
+                meta tags, and structured data, your static site can rank well in search results. 
+                Discover the essential SEO techniques every developer should know.
+            </p>
+            <a href="#post3">Read more →</a>
+        </article>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+        <p>
+            <a href="https://github.com/yourusername" target="_blank" rel="noopener">GitHub</a> • 
+            <a href="https://twitter.com/yourusername" target="_blank" rel="noopener">Twitter</a> • 
+            <a href="mailto:your.email@example.com">Email</a>
+        </p>
+    </footer>
+</body>
+</html>
