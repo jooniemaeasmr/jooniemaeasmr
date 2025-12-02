@@ -20,55 +20,39 @@
 			<li><a href="videos.html">Videos</a></li>
             <li><a href="archive.html">Archive</a></li>
             <li><a href="categories.html">Categories</a></li>
-            <li><a href="about.html">About</a></li>
+            <li><a href="about.hmtl">About</a></li>
         </ul>
     </nav>
     
-	<!-- Search Bar -->
-    <div class="search-container">
-        <input type="text" id="searchInput" placeholder="Search videos..." />
-        <button onclick="searchPosts()">Search</button>
-        <div id="searchResults"></div>
-    </div>
-	
     <main>
         <div class="categories-header">
-            <h2>Watch ASMR</h2>
-            <p>Access all my YouTube videos</p>
+            <h2>Browse by Category</h2>
+            <p>Explore posts organized by ASMR trigger type</p>
         </div>
         
         <div class="category-grid">
             <div class="category-card">
-                <h3>Video 1</h3>
+                <h3>Paper ASMR</h3>
                 <p>Page turning, folding, and paper manipulation sounds</p>
-                <a href="category-paper.html" class="category-link">View video →</a>
+                <a href="category-paper.html" class="category-link">View posts (5) →</a>
             </div>
             
             <div class="category-card">
-                <h3>Video 2</h3>
+                <h3>Writing ASMR</h3>
                 <p>Pen on paper, pencil scratching, and calligraphy sounds</p>
-                <a href="category-writing.html" class="category-link">View video →</a>
+                <a href="category-writing.html" class="category-link">View posts (8) →</a>
             </div>
             
             <div class="category-card">
-                <h3>Video 3</h3>
+                <h3>Scratching ASMR</h3>
                 <p>Gentle scratching on various surfaces and textures</p>
-                <a href="category-scratching.html" class="category-link">View video →</a>
+                <a href="category-scratching.html" class="category-link">View posts (6) →</a>
             </div>
             
             <div class="category-card">
-                <h3>Video 4</h3>
+                <h3>Crinkly ASMR</h3>
                 <p>Tissue paper, plastic, and other crinkly materials</p>
-                <a href="category-crinkly.html" class="category-link">View video →</a>
-            </div>
-        </div>
-		
-		<!-- Pagination -->
-        <div class="pagination">
-            <span class="page-info">Page 1 of 5</span>
-            <div class="page-links">
-                <a href="#" class="disabled">← Previous</a>
-                <a href="video2.html">Next →</a>
+                <a href="category-crinkly.html" class="category-link">View posts (4) →</a>
             </div>
         </div>
     </main>

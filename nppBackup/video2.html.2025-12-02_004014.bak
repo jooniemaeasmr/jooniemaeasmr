@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Browse ASMR content by category - Paper, Writing, Scratching, and Crinkly sounds.">
-    <title>Categories - ASMR for Sleep & Relaxation</title>
+    <meta name="description" content="No-talking ASMR trigger videos for sleep and relaxation - Page 2">
+    <title>ASMR for Sleep & Relaxation - Page 2</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
 </head>
@@ -20,55 +20,52 @@
 			<li><a href="videos.html">Videos</a></li>
             <li><a href="archive.html">Archive</a></li>
             <li><a href="categories.html">Categories</a></li>
-            <li><a href="about.html">About</a></li>
+            <li><a href="about.hmtl">About</a></li>
         </ul>
     </nav>
     
-	<!-- Search Bar -->
     <div class="search-container">
         <input type="text" id="searchInput" placeholder="Search videos..." />
         <button onclick="searchPosts()">Search</button>
         <div id="searchResults"></div>
     </div>
-	
+    
     <main>
-        <div class="categories-header">
+        <div class="posts-header">
             <h2>Watch ASMR</h2>
-            <p>Access all my YouTube videos</p>
         </div>
         
         <div class="category-grid">
             <div class="category-card">
-                <h3>Video 1</h3>
+                <h3>Video 5</h3>
                 <p>Page turning, folding, and paper manipulation sounds</p>
                 <a href="category-paper.html" class="category-link">View video →</a>
             </div>
             
             <div class="category-card">
-                <h3>Video 2</h3>
+                <h3>Video 6</h3>
                 <p>Pen on paper, pencil scratching, and calligraphy sounds</p>
                 <a href="category-writing.html" class="category-link">View video →</a>
             </div>
             
             <div class="category-card">
-                <h3>Video 3</h3>
+                <h3>Video 7</h3>
                 <p>Gentle scratching on various surfaces and textures</p>
                 <a href="category-scratching.html" class="category-link">View video →</a>
             </div>
             
             <div class="category-card">
-                <h3>Video 4</h3>
+                <h3>Video 8</h3>
                 <p>Tissue paper, plastic, and other crinkly materials</p>
                 <a href="category-crinkly.html" class="category-link">View video →</a>
             </div>
         </div>
-		
-		<!-- Pagination -->
+        
         <div class="pagination">
-            <span class="page-info">Page 1 of 5</span>
+            <span class="page-info">Page 2 of 5</span>
             <div class="page-links">
-                <a href="#" class="disabled">← Previous</a>
-                <a href="video2.html">Next →</a>
+                <a href="videos.html">← Previous</a>
+                <a href="video3.html">Next →</a>
             </div>
         </div>
     </main>
@@ -81,5 +78,7 @@
             <a href="https://www.pinterest.com/jooniemaeasmr/">Pinterest</a>
         </p>
     </footer>
+    
+    <script src="js/search.js"></script>
 </body>
 </html>
