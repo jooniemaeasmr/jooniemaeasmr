@@ -39,10 +39,9 @@
     <nav>
         <ul>
             <li><a href="../index.html">Home</a></li>
-            <li><a href="../videos.html">Videos</a></li>
-            <li><a href="../archive.html">Archive</a></li>
-            <li><a href="../categories.html">Categories</a></li>
-			<li><a href="../about.html">About</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#videos">Videos</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
     
@@ -106,11 +105,11 @@
     </main>
     
     <footer>
-        <p>&copy; 2025 Joonie Mae ASMR. All rights reserved.</p>
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
         <p>
-            <a href="https://www.youtube.com/@JoonieMaeASMR" target="_blank" rel="noopener">YouTube</a> • 
-            <a href="https://twitter.com/yourusername" target="_blank" rel="noopener">Spotify | Podcast</a> • 
-            <a href="https://www.pinterest.com/jooniemaeasmr/">Pinterest</a>
+            <a href="https://youtube.com/@yourchannel" target="_blank" rel="noopener">YouTube</a> • 
+            <a href="https://instagram.com/yourusername" target="_blank" rel="noopener">Instagram</a> • 
+            <a href="mailto:your.email@example.com">Email</a>
         </p>
     </footer>
 </body>

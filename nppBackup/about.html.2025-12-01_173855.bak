@@ -38,17 +38,17 @@
     
     <nav>
         <ul>
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="../videos.html">Videos</a></li>
-            <li><a href="../archive.html">Archive</a></li>
-            <li><a href="../categories.html">Categories</a></li>
-			<li><a href="../about.html">About</a></li>
+            <li><a href="index.html">Home</a></li>
+			<li><a href="videos.html">Videos</a></li>
+            <li><a href="archive.html">Archive</a></li>
+            <li><a href="categories.html">Categories</a></li>
+            <li><a href="about.hmtl">About</a></li>
         </ul>
     </nav>
     
     <main>
         <article class="post-content">
-            <a href="../index.html" class="back-link">← Back to all posts</a>
+            <a href="index.html" class="back-link">← Back to all posts</a>
             
             <h2>The Art of Paper Sounds for Deep Sleep</h2>
             <div class="meta">

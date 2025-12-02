@@ -25,14 +25,14 @@
     </nav>
     
     <div class="search-container">
-        <input type="text" id="searchInput" placeholder="Search posts..." />
+        <input type="text" id="searchInput" placeholder="Search videos..." />
         <button onclick="searchPosts()">Search</button>
         <div id="searchResults"></div>
     </div>
     
     <main>
         <div class="posts-header">
-            <h2>Recent Posts</h2>
+            <h2>Watch ASMR</h2>
         </div>
         
         <!-- Posts 4-6 would go here -->
@@ -41,7 +41,7 @@
             <span class="page-info">Page 2 of 5</span>
             <div class="page-links">
                 <a href="index.html">← Previous</a>
-                <a href="page3.html">Next →</a>
+                <a href="video3.html">Next →</a>
             </div>
         </div>
     </main>

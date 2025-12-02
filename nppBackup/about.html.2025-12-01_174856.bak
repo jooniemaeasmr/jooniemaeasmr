@@ -27,23 +27,21 @@
     <main>
         <div class="category-page-header">
             <a href="categories.html" class="back-link">← All Categories</a>
-            <h2>Paper ASMR</h2>
-            <p>Page turning, folding, and paper manipulation sounds</p>
+            <h2>Learn about Joonie</h2>
+            <p>And where else you can find me at</p>
         </div>
         
         <article itemscope itemtype="https://schema.org/BlogPosting">
-            <h2 itemprop="headline">The Art of Paper Sounds for Deep Sleep</h2>
-            <div class="meta">
-                <time datetime="2024-12-01" itemprop="datePublished">December 1, 2024</time> • 
-                <span itemprop="author" itemscope itemtype="https://schema.org/Person">
-                    <span itemprop="name">Your Name</span>
-                </span>
-            </div>
+            <h2 itemprop="headline">Hi, I'm Joonie Mae</h2>
             <p itemprop="description">
-                Discover the soothing world of paper ASMR. From gentle page turning to crisp paper folding, 
-                these delicate sounds create the perfect atmosphere for relaxation and sleep.
+                I've been an avid fan and consumer of ASMR for the last several years. And because of that,
+				I thought why not make more of the sounds I'd like to hear? So I set up an experiment
+				where I challenged myself to consistently create and publish ASMR videos for the next six
+				months. Ultimately, I created my channel for myself; for the times where I like to read
+				and have an ASMR video playing in the background. 
+				I hope you all can take something away from my creations - whether it calmed you down, 
+				put you to sleep, or made you reflective. Thank you for supporting me!
             </p>
-            <a href="posts/paper-sounds-sleep.html">Read more →</a>
         </article>
         
         <!-- Add more Paper ASMR posts here -->
