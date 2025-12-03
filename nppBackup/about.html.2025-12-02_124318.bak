@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="All posts about Paper ASMR - page turning, folding, and paper sounds for relaxation.">
+    <title>About - ASMR for Sleep & Relaxation</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1>ASMR for Sleep & Relaxation</h1>
+        <p>No-talking trigger videos • Paper • Writing • Scratching • Crinkly Sounds</p>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+			<li><a href="videos.html">Videos</a></li>
+            <li><a href="archive.html">Archive</a></li>
+            <li><a href="categories.html">Categories</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <div class="category-page-header">
+            <a href="index.html" class="back-link">← Go back Home</a>
+        </div>
+        
+        <article itemscope itemtype="https://schema.org/BlogPosting">
+            <h2 itemprop="headline">Hi, I'm Joonie Mae</h2>
+            <p itemprop="description">
+                I've been an avid fan and consumer of ASMR for the last several years. And because of that,
+				I thought why not make more of the sounds I'd like to hear? So I set up an experiment
+				where I challenged myself to consistently create and publish ASMR videos for the next six
+				months. Ultimately, I created my channel for myself; for the times where I like to read
+				and have an ASMR video playing in the background.
+				<br></br>
+				I mostly use this website to post the written versions of my book reviews. You can also find the audio
+				versions on my Spotify podcast. From time to time, I also post my ASMR journey and thought process - 
+				what I learned, what I feared, what almost happened but didn't.
+				I hope you all can take something away from my creations - whether it calmed you down, 
+				put you to sleep, or made you reflective. Thank you for supporting me!
+				<br></br>
+				You can reach me at my email: jooniemae.asmr@gmail.com
+            </p>
+        </article>
+		
+        <!-- Add more Paper ASMR posts here -->
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 Joonie Mae ASMR. All rights reserved.</p>
+        <p>
+            <a href="https://www.youtube.com/@JoonieMaeASMR" target="_blank" rel="noopener">YouTube</a> • 
+            <a href="https://twitter.com/yourusername" target="_blank" rel="noopener">Spotify | Podcast</a> • 
+            <a href="https://www.pinterest.com/jooniemaeasmr/">Pinterest</a>
+        </p>
+    </footer>
+</body>
+</html>

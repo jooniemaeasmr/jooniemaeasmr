@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Watch this relaxing paper sounds ASMR video for sleep and relaxation.">
+    <meta name="keywords" content="ASMR video, paper sounds, sleep, relaxation">
+    <meta name="author" content="Your Name">
+    
+    <meta property="og:type" content="video.other">
+    <meta property="og:title" content="Paper Sounds for Deep Sleep - ASMR Video">
+    <meta property="og:description" content="Watch this relaxing paper sounds ASMR video for sleep and relaxation.">
+    <meta property="og:url" content="https://yourusername.github.io/posts/video-paper-sounds.html">
+    
+    <title>Paper Sounds for Deep Sleep - ASMR Video</title>
+    
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" href="../assets/favicon.ico" type="image/x-icon">
+    
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "VideoObject",
+        "name": "Paper Sounds for Deep Sleep",
+        "description": "Relaxing paper sounds ASMR video for sleep and relaxation",
+        "uploadDate": "2024-12-01",
+        "thumbnailUrl": "https://img.youtube.com/vi/YOUR_VIDEO_ID/maxresdefault.jpg",
+        "contentUrl": "https://yourusername.github.io/posts/video-paper-sounds.html"
+    }
+    </script>
+</head>
+<body>
+    <header>
+        <h1>ASMR for Sleep & Relaxation</h1>
+        <p>No-talking trigger videos • Paper • Writing • Scratching • Crinkly Sounds</p>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../archive.html">Archive</a></li>
+            <li><a href="../categories.html">Categories</a></li>
+            <li><a href="../videos.html">Videos</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <article class="video-post">
+            <a href="../videos.html" class="back-link">← Back to all videos</a>
+            
+            <h2>Paper Sounds for Deep Sleep</h2>
+            <div class="meta">
+                <time datetime="2024-12-01">December 1, 2024</time> • Your Name
+                <span class="category">Paper ASMR</span>
+            </div>
+            
+            <!-- YouTube Video Embed -->
+            <div class="video-container">
+                <iframe 
+                    src="https://www.youtube.com/embed/YOUR_VIDEO_ID" 
+                    title="Paper Sounds for Deep Sleep ASMR" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    allowfullscreen>
+                </iframe>
+            </div>
+            
+            <div class="video-description">
+                <h3>About This Video</h3>
+                <p>
+                    Experience the soothing sounds of paper in this no-talking ASMR video. 
+                    I'll be turning pages, gently folding paper, and creating various paper 
+                    sounds designed to help you relax and fall asleep.
+                </p>
+                
+                <h3>Timestamps</h3>
+                <ul class="timestamps">
+                    <li><a href="https://www.youtube.com/watch?v=YOUR_VIDEO_ID&t=0s" target="_blank">0:00</a> - Page turning</li>
+                    <li><a href="https://www.youtube.com/watch?v=YOUR_VIDEO_ID&t=300s" target="_blank">5:00</a> - Paper folding</li>
+                    <li><a href="https://www.youtube.com/watch?v=YOUR_VIDEO_ID&t=600s" target="_blank">10:00</a> - Tissue paper crinkles</li>
+                    <li><a href="https://www.youtube.com/watch?v=YOUR_VIDEO_ID&t=900s" target="_blank">15:00</a> - Parchment scratching</li>
+                </ul>
+                
+                <h3>What You'll Hear</h3>
+                <ul>
+                    <li>Gentle page turning sounds</li>
+                    <li>Soft paper folding and crinkling</li>
+                    <li>Delicate paper scratching</li>
+                    <li>Various paper textures and movements</li>
+                </ul>
+                
+                <div class="video-cta">
+                    <p>If you enjoyed this video, please consider:</p>
+                    <a href="https://youtube.com/@yourchannel" target="_blank" class="cta-button">Subscribe on YouTube</a>
+                    <a href="https://www.youtube.com/watch?v=YOUR_VIDEO_ID" target="_blank" class="cta-button secondary">Watch on YouTube</a>
+                </div>
+            </div>
+            
+            <!-- Related Videos -->
+            <div class="related-videos">
+                <h3>More ASMR Videos</h3>
+                <div class="video-grid">
+                    <div class="video-card">
+                        <a href="video-writing-meditation.html">
+                            <img src="../images/thumb-writing.jpg" alt="Writing ASMR thumbnail">
+                            <h4>Writing Sounds</h4>
+                            <p>30 minutes of pen on paper</p>
+                        </a>
+                    </div>
+                    <div class="video-card">
+                        <a href="video-crinkly-sounds.html">
+                            <img src="../images/thumb-crinkly.jpg" alt="Crinkly ASMR thumbnail">
+                            <h4>Crinkly Textures</h4>
+                            <p>55 minutes of crinkly sounds</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+        <p>
+            <a href="https://youtube.com/@yourchannel" target="_blank" rel="noopener">YouTube</a> • 
+            <a href="https://instagram.com/yourusername" target="_blank" rel="noopener">Instagram</a> • 
+            <a href="mailto:your.email@example.com">Email</a>
+        </p>
+    </footer>
+</body>
+</html>

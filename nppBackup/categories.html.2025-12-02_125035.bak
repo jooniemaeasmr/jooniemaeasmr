@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Browse ASMR content by category - Paper, Writing, Scratching, and Crinkly sounds.">
+    <title>Categories - ASMR for Sleep & Relaxation</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1>ASMR for Sleep & Relaxation</h1>
+        <p>No-talking trigger videos • Paper • Writing • Scratching • Crinkly Sounds</p>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+			<li><a href="videos.html">Videos</a></li>
+            <li><a href="categories.html">Categories</a></li>
+			<li><a href="archive.html">Archive</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <div class="categories-header">
+            <h2>Browse by Category</h2>
+            <p>Explore videos organized by ASMR trigger type</p>
+        </div>
+        
+        <div class="category-grid">
+            <div class="category-card">
+                <h3>Paper ASMR</h3>
+                <p>Page turning, folding, and paper manipulation sounds</p>
+                <a href="category-paper.html" class="category-link">View posts (0) →</a>
+            </div>
+            
+            <div class="category-card">
+                <h3>Writing ASMR</h3>
+                <p>Pen on paper, pencil scratching, and calligraphy sounds</p>
+                <a href="category-writing.html" class="category-link">View posts (0) →</a>
+            </div>
+            
+            <div class="category-card">
+                <h3>Scratching ASMR</h3>
+                <p>Gentle scratching on various surfaces and textures</p>
+                <a href="category-scratching.html" class="category-link">View posts (0) →</a>
+            </div>
+            
+            <div class="category-card">
+                <h3>Crinkly ASMR</h3>
+                <p>Tissue paper, plastic, and other crinkly materials</p>
+                <a href="category-crinkly.html" class="category-link">View posts (0) →</a>
+            </div>
+        </div>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 Joonie Mae ASMR. All rights reserved.</p>
+        <p>
+            <a href="https://www.youtube.com/@JoonieMaeASMR" target="_blank" rel="noopener">YouTube</a> • 
+            <a href="https://twitter.com/yourusername" target="_blank" rel="noopener">Spotify | Podcast</a> • 
+            <a href="https://www.pinterest.com/jooniemaeasmr/">Pinterest</a>
+        </p>
+    </footer>
+</body>
+</html>

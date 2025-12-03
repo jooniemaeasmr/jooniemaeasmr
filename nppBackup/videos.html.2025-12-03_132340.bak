@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Browse ASMR content by category - Paper, Writing, Scratching, and Crinkly sounds.">
+    <title>Categories - ASMR for Sleep & Relaxation</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1>ASMR for Sleep & Relaxation</h1>
+        <p>No-talking trigger videos • Paper • Writing • Scratching • Crinkly Sounds</p>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+			<li><a href="videos.html">Videos</a></li>
+            <li><a href="categories.html">Categories</a></li>
+			<li><a href="archive.html">Archive</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </nav>
+    
+	<!-- Search Bar -->
+    <div class="search-container">
+        <input type="text" id="searchInput" placeholder="Search videos..." />
+        <button onclick="searchPosts()">Search</button>
+        <div id="searchResults"></div>
+    </div>
+	
+    <main>
+        <div class="categories-header">
+            <h2>Watch ASMR</h2>
+            <p>Access all my YouTube videos</p>
+        </div>
+        
+        <div class="category-grid">
+            <div class="category-card">
+                <h3>my first asmr video</h3>
+                <p>paper, crinkly, liquid sounds (no talking)</p>
+				<img src="images/thumbnails/first-video.jpg" alt="My first ASMR video thumbnail">
+                <a href="posts/favorite-asmr-triggers-video.html">Read more →</a>
+            </div>
+            
+            <div class="category-card">
+                <h3>Video 2</h3>
+                <p>Pen on paper, pencil scratching, and calligraphy sounds</p>
+				<img src="images/thumbnails/first-video.jpg" alt="My first ASMR video thumbnail">
+                <a href="category-writing.html" class="category-link">View video →</a>
+            </div>
+            
+            <div class="category-card">
+                <h3>Video 3</h3>
+                <p>Gentle scratching on various surfaces and textures</p>
+				<img src="images/thumbnails/first-video.jpg" alt="My first ASMR video thumbnail">
+                <a href="category-scratching.html" class="category-link">View video →</a>
+            </div>
+            
+            <div class="category-card">
+                <h3>Video 4</h3>
+                <p>Tissue paper, plastic, and other crinkly materials</p>
+				<img src="images/thumbnails/first-video.jpg" alt="My first ASMR video thumbnail">
+                <a href="category-crinkly.html" class="category-link">View video →</a>
+            </div>
+        </div>
+		
+		<!-- Pagination -->
+        <div class="pagination">
+            <span class="page-info">Page 1 of 5</span>
+            <div class="page-links">
+                <a href="#" class="disabled">← Previous</a>
+                <a href="video2.html">Next →</a>
+            </div>
+        </div>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 Joonie Mae ASMR. All rights reserved.</p>
+        <p>
+            <a href="https://www.youtube.com/@JoonieMaeASMR" target="_blank" rel="noopener">YouTube</a> • 
+            <a href="https://twitter.com/yourusername" target="_blank" rel="noopener">Spotify | Podcast</a> • 
+            <a href="https://www.pinterest.com/jooniemaeasmr/">Pinterest</a>
+        </p>
+    </footer>
+</body>
+</html>

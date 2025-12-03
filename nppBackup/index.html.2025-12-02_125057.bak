@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="No-talking ASMR trigger videos for sleep and relaxation. Featuring paper, writing, scratching, and crinkly sounds.">
+    <meta name="keywords" content="ASMR, no talking ASMR, sleep sounds, relaxation, paper sounds, writing ASMR, scratching sounds, crinkly ASMR">
+    <meta name="author" content="Your Name">
+    
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="ASMR for Sleep & Relaxation">
+    <meta property="og:description" content="No-talking ASMR trigger videos for sleep and relaxation. Featuring paper, writing, scratching, and crinkly sounds.">
+    <meta property="og:url" content="https://yourusername.github.io">
+    
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="ASMR for Sleep & Relaxation">
+    <meta name="twitter:description" content="No-talking ASMR trigger videos for sleep and relaxation.">
+    
+    <title>ASMR for Sleep & Relaxation</title>
+    
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+    
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Blog",
+        "name": "ASMR for Sleep & Relaxation",
+        "description": "No-talking ASMR trigger videos for sleep and relaxation",
+        "url": "https://jooniemaeasmr.github.io/jooniemaeasmr/",
+        "author": {
+            "@type": "Person",
+            "name": "Joonie Mae"
+        }
+    }
+    </script>
+</head>
+<body>
+    <header>
+        <h1>ASMR for Sleep & Relaxation</h1>
+        <p>No-talking trigger videos • Paper • Writing • Scratching • Crinkly Sounds</p>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+			<li><a href="videos.html">Videos</a></li>
+            <li><a href="categories.html">Categories</a></li>
+			<li><a href="archive.html">Archive</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </nav>
+    
+    <!-- Search Bar -->
+    <div class="search-container">
+        <input type="text" id="searchInput" placeholder="Search posts..." />
+        <button onclick="searchPosts()">Search</button>
+        <div id="searchResults"></div>
+    </div>
+    
+    <main>
+        <div class="posts-header">
+            <h2>Recent Posts</h2>
+        </div>
+        
+        <article itemscope itemtype="https://schema.org/BlogPosting">
+            <h2 itemprop="headline">From Breakdown to Breakthrough: How I Went All In on My Creative Dream</h2>
+            <div class="meta">
+                <time datetime="2024-12-01" itemprop="datePublished">December 2, 2025</time> • 
+                <span itemprop="author" itemscope itemtype="https://schema.org/Person">
+                    <span itemprop="name">Joonie Mae</span>
+                </span>
+                <span class="category">Lessons</span>
+            </div>
+            <p itemprop="description">
+                Discover the soothing world of paper ASMR. From gentle page turning to crisp paper folding, 
+                these delicate sounds create the perfect atmosphere for relaxation and sleep. Learn about 
+                different paper types and techniques that produce the most satisfying auditory experiences.
+            </p>
+            <a href="posts/paper-sounds-sleep.html">Read more →</a>
+        </article>
+        
+        
+        
+        <!-- Pagination -->
+        <div class="pagination">
+            <span class="page-info">Page 1 of 5</span>
+            <div class="page-links">
+                <a href="#" class="disabled">← Previous</a>
+                <a href="page2.html">Next →</a>
+            </div>
+        </div>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 Joonie Mae ASMR. All rights reserved.</p>
+        <p>
+            <a href="https://www.youtube.com/@JoonieMaeASMR" target="_blank" rel="noopener">YouTube</a> • 
+            <a href="https://twitter.com/yourusername" target="_blank" rel="noopener">Spotify | Podcast</a> • 
+            <a href="https://www.pinterest.com/jooniemaeasmr/">Pinterest</a>
+        </p>
+    </footer>
+    
+    <script src="js/search.js"></script>
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Complete archive of all ASMR posts organized by date.">
+    <title>Archive - ASMR for Sleep & Relaxation</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1>ASMR for Sleep & Relaxation</h1>
+        <p>No-talking trigger videos • Paper • Writing • Scratching • Crinkly Sounds</p>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+			<li><a href="videos.html">Videos</a></li>
+            <li><a href="archive.html">Archive</a></li>
+            <li><a href="categories.html">Categories</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <div class="archive-header">
+            <h2>All Posts</h2>
+            <p>Browse the complete collection of ASMR content</p>
+        </div>
+        
+        <div class="archive-section">
+            <h3>December 2024</h3>
+            <ul class="archive-list">
+                <li>
+                    <span class="archive-date">Dec 1</span>
+                    <a href="posts/paper-sounds-sleep.html">The Art of Paper Sounds for Deep Sleep</a>
+                    <span class="archive-category">Paper ASMR</span>
+                </li>
+            </ul>
+        </div>
+        
+        <div class="archive-section">
+            <h3>November 2024</h3>
+            <ul class="archive-list">
+                <li>
+                    <span class="archive-date">Nov 28</span>
+                    <a href="posts/writing-asmr-meditation.html">Writing ASMR: Pen on Paper Meditation</a>
+                    <span class="archive-category">Writing ASMR</span>
+                </li>
+                <li>
+                    <span class="archive-date">Nov 25</span>
+                    <a href="posts/crinkly-textures-relaxation.html">Crinkly Textures: Nature's Relaxation Sound</a>
+                    <span class="archive-category">Crinkly ASMR</span>
+                </li>
+            </ul>
+        </div>
+        
+        <!-- Add more months as needed -->
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 Joonie Mae ASMR. All rights reserved.</p>
+        <p>
+            <a href="https://www.youtube.com/@JoonieMaeASMR" target="_blank" rel="noopener">YouTube</a> • 
+            <a href="https://twitter.com/yourusername" target="_blank" rel="noopener">Spotify | Podcast</a> • 
+            <a href="https://www.pinterest.com/jooniemaeasmr/">Pinterest</a>
+        </p>
+    </footer>
+</body>
+</html>
