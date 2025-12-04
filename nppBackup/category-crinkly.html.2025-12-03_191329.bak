@@ -18,6 +18,7 @@
         <ul>
             <li><a href="index.html">Home</a></li>
 			<li><a href="videos.html">Videos</a></li>
+            <li><a href="categories.html">Categories</a></li>
 			<li><a href="archive.html">Archive</a></li>
             <li><a href="about.html">About</a></li>
         </ul>
@@ -26,7 +27,7 @@
     <main>
         <div class="category-page-header">
             <a href="categories.html" class="back-link">← All Categories</a>
-            <h2>Paper ASMR</h2>
+            <h2>Crinkly ASMR</h2>
             <p>Page turning, folding, and paper manipulation sounds</p>
         </div>
         

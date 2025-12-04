@@ -18,6 +18,7 @@
         <ul>
             <li><a href="index.html">Home</a></li>
 			<li><a href="videos.html">Videos</a></li>
+            <li><a href="categories.html">Categories</a></li>
 			<li><a href="archive.html">Archive</a></li>
             <li><a href="about.html">About</a></li>
         </ul>
@@ -44,7 +45,20 @@
             </p>
             <a href="posts/paper-sounds-sleep.html">Read more →</a>
         </article>
-        
+        <article itemscope itemtype="https://schema.org/BlogPosting">
+            <h2 itemprop="headline">The Art of Paper Sounds for Deep Sleep</h2>
+            <div class="meta">
+                <time datetime="2024-12-01" itemprop="datePublished">December 1, 2024</time> • 
+                <span itemprop="author" itemscope itemtype="https://schema.org/Person">
+                    <span itemprop="name">Your Name</span>
+                </span>
+            </div>
+            <p itemprop="description">
+                Discover the soothing world of paper ASMR. From gentle page turning to crisp paper folding, 
+                these delicate sounds create the perfect atmosphere for relaxation and sleep.
+            </p>
+            <a href="posts/paper-sounds-sleep.html">Read more →</a>
+        </article>
         <!-- Add more Paper ASMR posts here -->
     </main>
     

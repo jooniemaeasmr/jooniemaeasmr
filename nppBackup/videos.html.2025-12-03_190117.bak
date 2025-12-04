@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Browse ASMR videos by category - Paper, Writing, Scratching, and Crinkly sounds.">
+    <meta name="description" content="Browse ASMR content by category - Paper, Writing, Scratching, and Crinkly sounds.">
     <title>Videos - ASMR for Sleep & Relaxation</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
@@ -18,40 +18,42 @@
         <ul>
             <li><a href="index.html">Home</a></li>
 			<li><a href="videos.html">Videos</a></li>
+            <li><a href="categories.html">Categories</a></li>
 			<li><a href="archive.html">Archive</a></li>
             <li><a href="about.html">About</a></li>
         </ul>
     </nav>
     
+	<!-- Search Bar -->
+    <div class="search-container">
+        <input type="text" id="searchInput" placeholder="Search videos..." />
+        <button onclick="searchPosts()">Search</button>
+        <div id="searchResults"></div>
+    </div>
+	
     <main>
         <div class="categories-header">
-            <h2>Browse by Category</h2>
-            <p>Explore videos organized by ASMR trigger or category type</p>
+            <h2>Watch ASMR</h2>
+            <p>Access all my YouTube videos</p>
         </div>
         
-        <div class="category-grid">
-            <div class="category-card">
-                <h3>Paper ASMR</h3>
-                <p>Page turning, folding, and paper manipulation sounds</p>
-                <a href="category-paper.html" class="category-link">View posts (0) →</a>
+        <div class="videos-grid">
+            <div class="videos-card">
+                <h3>my first asmr video</h3>
+                <p>paper, crinkly, liquid sounds (no talking)</p>
+				<img src="images/thumbnails/favorite-asmr-triggers.png" alt="Hands holding a yellow rectangular tea box, a brown bottle, resting on top of a water damaged pages and a book"> 
+				<a href="posts/favorite-asmr-triggers-video.html" class="videos-link">Watch →</a>
             </div>
             
-            <div class="category-card">
-                <h3>Writing ASMR</h3>
-                <p>Pen on paper, pencil scratching, and calligraphy sounds</p>
-                <a href="category-writing.html" class="category-link">View posts (0) →</a>
-            </div>
-            
-            <div class="category-card">
-                <h3>Scratching ASMR</h3>
-                <p>Gentle scratching on various surfaces and textures</p>
-                <a href="category-scratching.html" class="category-link">View posts (0) →</a>
-            </div>
-            
-            <div class="category-card">
-                <h3>Crinkly ASMR</h3>
-                <p>Tissue paper, plastic, and other crinkly materials</p>
-                <a href="category-crinkly.html" class="category-link">View posts (0) →</a>
+            <!-- Place more videos here -->
+        </div>
+		
+		
+        <div class="pagination">
+            <span class="page-info">Page 1 of 1</span>
+            <div class="page-links">
+                <a href="#" class="disabled">← Previous</a>
+                <a href="">Next →</a>
             </div>
         </div>
     </main>
