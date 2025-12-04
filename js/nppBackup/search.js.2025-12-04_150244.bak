@@ -10,13 +10,20 @@ const postsDatabase = [
     },
     {
         title: "From Breakdown to Breakthrough: How I Went All In on My Creative Dream",
-        description: "I remember the exact moment the realization hit: this wasn't going to happen. All that time spent waiting to hear back was wasted. I felt lost.",
+        description: "The rhythmic scratch of pen on paper has a uniquely calming quality. Explore how different writing instruments and paper textures combine to create deeply relaxing soundscapes.",
         url: "posts/2025/dec/breakdown-breakthrough-creative-dream.html",
-        date: "2025-12-04",
+        date: "2024-11-28",
         category: "Writing ASMR",
         tags: ["writing", "pen", "paper", "meditation"]
     },
-
+    {
+        title: "Crinkly Textures: Nature's Relaxation Sound",
+        description: "Crinkly sounds tap into something primal and comforting. Whether it's tissue paper, plastic wrap, or natural materials, these textures create unpredictable yet soothing patterns.",
+        url: "posts/crinkly-textures-relaxation.html",
+        date: "2024-11-25",
+        category: "Crinkly ASMR",
+        tags: ["crinkly", "texture", "relaxation", "nature"]
+    }
     // Add more posts as you create them
 ];
 
