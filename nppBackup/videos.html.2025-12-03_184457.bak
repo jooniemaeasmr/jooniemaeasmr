@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Browse ASMR content by category - Paper, Writing, Scratching, and Crinkly sounds.">
-    <title>Videos - ASMR for Sleep & Relaxation</title>
+    <title>Categories - ASMR for Sleep & Relaxation</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
 </head>
@@ -42,7 +42,7 @@
                 <h3>my first asmr video</h3>
                 <p>paper, crinkly, liquid sounds (no talking)</p>
 				<img src="images/thumbnails/favorite-asmr-triggers.png" alt="Hands holding a yellow rectangular tea box, a brown bottle, resting on top of a water damaged pages and a book"> 
-				<a href="posts/favorite-asmr-triggers.html" class="category-link">Watch →</a>
+				<a href="posts/favorite-asmr-triggers-video.html">Watch →</a>
             </div>
             
             <!-- Place more videos here -->
