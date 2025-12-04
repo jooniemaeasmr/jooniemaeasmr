@@ -58,14 +58,13 @@
             
             <!-- YouTube Video Embed -->
             <div class="video-container">
-				<iframe width="667" height="375" 
-				src="https://www.youtube.com/embed/lQvJSJcHFiM" 
-				title="my first asmr video | paper, crinkly, liquid sounds (no talking)" 
-				frameborder="0" 
-				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-				referrerpolicy="strict-origin-when-cross-origin" 
-				allowfullscreen>
-				</iframe>
+                <iframe 
+                    src="https://www.youtube.com/embed/lQvJSJcHFiM" 
+                    title="my first asmr video - paper, crinkly, liquid sounds (no talking)" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    allowfullscreen>
+                </iframe>
             </div>
             
             <div class="video-description">
