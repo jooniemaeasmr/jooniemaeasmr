@@ -37,12 +37,12 @@
             <p>Access all my YouTube videos</p>
         </div>
         
-        <div class="category-grid">
-            <div class="category-card">
+        <div class="video-grid">
+            <div class="video-card">
                 <h3>my first asmr video</h3>
                 <p>paper, crinkly, liquid sounds (no talking)</p>
 				<img src="images/thumbnails/favorite-asmr-triggers.png" alt="Hands holding a yellow rectangular tea box, a brown bottle, resting on top of a water damaged pages and a book"> 
-				<a href="posts/favorite-asmr-triggers-video.html" class="category-link">Watch →</a>
+				<a href="posts/favorite-asmr-triggers-video.html" class="video-link">Watch →</a>
             </div>
             
             <!-- Place more videos here -->
