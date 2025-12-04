@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="No-talking ASMR trigger videos for sleep and relaxation. Featuring paper, writing, scratching, and crinkly sounds.">
+    <meta name="keywords" content="ASMR, no talking ASMR, sleep sounds, relaxation, paper sounds, writing ASMR, scratching sounds, crinkly ASMR">
+    <meta name="author" content="Your Name">
+    
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="ASMR for Sleep & Relaxation">
+    <meta property="og:description" content="No-talking ASMR trigger videos for sleep and relaxation. Featuring paper, writing, scratching, and crinkly sounds.">
+    <meta property="og:url" content="https://yourusername.github.io">
+    
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="ASMR for Sleep & Relaxation">
+    <meta name="twitter:description" content="No-talking ASMR trigger videos for sleep and relaxation.">
+    
+    <title>ASMR for Sleep & Relaxation</title>
+    
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+    
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Blog",
+        "name": "ASMR for Sleep & Relaxation",
+        "description": "No-talking ASMR trigger videos for sleep and relaxation",
+        "url": "https://yourusername.github.io",
+        "author": {
+            "@type": "Person",
+            "name": "Your Name"
+        }
+    }
+    </script>
+</head>
+<body>
+    <header>
+        <h1>ASMR for Sleep & Relaxation</h1>
+        <p>No-talking trigger videos • Paper • Writing • Scratching • Crinkly Sounds</p>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+			<li><a href="../videos.html">Videos</a></li>
+			<li><a href="../archive.html">Archive</a></li>
+            <li><a href="../about.html">About</a></li>
+        </ul>
+    </nav>
+    
+    <!-- Search Bar -->
+    <div class="search-container">
+        <input type="text" id="searchInput" placeholder="Search posts..." />
+        <button onclick="searchPosts()">Search</button>
+        <div id="searchResults"></div>
+    </div>
+    
+    <main>
+        <div class="posts-header">
+            <h2>Recent Posts</h2>
+        </div>
+        
+        <!-- Posts will be dynamically loaded here -->
+        <div id="postsContainer"></div>
+        
+        <!-- Pagination will be dynamically loaded here -->
+        <div id="paginationContainer"></div>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 Joonie Mae ASMR. All rights reserved.</p>
+        <p>
+            <a href="https://www.youtube.com/@JoonieMaeASMR" target="_blank" rel="noopener">YouTube</a> • 
+            <a href="https://twitter.com/yourusername" target="_blank" rel="noopener">Spotify | Podcast</a> • 
+            <a href="https://www.pinterest.com/jooniemaeasmr/">Pinterest</a>
+        </p>
+    </footer>
+    
+    <script src="js/posts-loader.js"></script>
+</body>
+</html>

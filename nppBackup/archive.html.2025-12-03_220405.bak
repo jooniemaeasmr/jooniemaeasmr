@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Complete archive of all ASMR posts organized by date.">
+    <meta name="description" content="Complete archive of all ASMR posts and videos organized by date.">
     <title>Archive - ASMR for Sleep & Relaxation</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
@@ -25,34 +25,12 @@
     
     <main>
         <div class="archive-header">
-            <h2>All Posts & Videos</h2>
+            <h2>All Posts</h2>
             <p>Browse the complete collection of ASMR content</p>
         </div>
         
-        <div class="archive-section">
-            <h3>December 2025</h3>
-            <ul class="archive-list">
-                <li>
-                    <span class="archive-date">Dec 4</span>
-                    <a href="posts/paper-sounds-sleep.html">From Breakdown to Breakthrough: How I Went All In on My Creative Dream</a>
-                    <span class="archive-category">Other</span>
-                </li>
-            </ul>
-        </div>
-        
-        <div class="archive-section">
-            <h3>November 2025</h3>
-            <ul class="archive-list">
-                <li>
-                    <span class="archive-date">Nov 29</span>
-                    <a href="posts/favorite-asmr-triggers-video.html">my first asmr video - paper, crinkly, liquid sounds (no talking)</a>
-                    <span class="archive-category">Paper ASMR</span>
-					<span class="archive-category">Crinkly ASMR</span>
-                </li>
-            </ul>
-        </div>
-        
-        <!-- Add more months as needed -->
+        <!-- Archive will be dynamically loaded here -->
+        <div id="archiveContainer"></div>
     </main>
     
     <footer>
@@ -63,5 +41,7 @@
             <a href="https://www.pinterest.com/jooniemaeasmr/">Pinterest</a>
         </p>
     </footer>
+    
+    <script src="js/archive-loader.js"></script>
 </body>
 </html>

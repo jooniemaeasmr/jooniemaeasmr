@@ -1,12 +1,12 @@
 // Posts database - add all your posts here
 const postsDatabase = [
     {
-        title: "my first asmr video - paper, crinkly, liquid sounds (no talking)",
-        description: "Use 🎧headphones🎧 for the best experience! 10 different triggers featuring paper sounds, crinkly textures, liquid sounds, and more. No talking, just pure relaxing sounds for sleep, study, or stress relief.",
-        url: "posts/favorite-asmr-triggers-video.html",
-        date: "2025-11-29",
-        category: "Paper ASMR", "Crinkly ASMR"
-        tags: ["paper", "sleep", "relaxation", "page turning", "crinkly", "tea", "book", "scroll", "video"]
+        title: "The Art of Paper Sounds for Deep Sleep",
+        description: "Discover the soothing world of paper ASMR. From gentle page turning to crisp paper folding, these delicate sounds create the perfect atmosphere for relaxation and sleep.",
+        url: "posts/paper-sounds-sleep.html",
+        date: "2024-12-01",
+        category: "Paper ASMR",
+        tags: ["paper", "sleep", "relaxation", "page turning"]
     },
     {
         title: "Writing ASMR: Pen on Paper Meditation",

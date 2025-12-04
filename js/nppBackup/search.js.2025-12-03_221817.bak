@@ -1,7 +1,7 @@
 // Posts database - add all your posts here
 const postsDatabase = [
     {
-        title: "my first asmr video - paper, crinkly, liquid sounds (no talking)",
+        title: "The Art of Paper Sounds for Deep Sleep",
         description: "Use 🎧headphones🎧 for the best experience! 10 different triggers featuring paper sounds, crinkly textures, liquid sounds, and more. No talking, just pure relaxing sounds for sleep, study, or stress relief.",
         url: "posts/favorite-asmr-triggers-video.html",
         date: "2025-11-29",

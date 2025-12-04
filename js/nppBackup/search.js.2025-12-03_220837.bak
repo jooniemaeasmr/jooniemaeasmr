@@ -1,0 +1,166 @@
+let postsDatabase = [];
+
+// Function to load and parse posts from HTML pages
+async function loadPostsFromPages() {
+    const pagesToScrape = [
+        'index.html',
+        'page2.html',
+        'page3.html',
+        'page4.html',
+        'page5.html',
+        'archive.html',
+        'category-paper.html',
+        'category-writing.html',
+        'category-scratching.html',
+        'category-crinkly.html'
+    ];
+    
+    const posts = [];
+    const seenUrls = new Set(); // Avoid duplicates
+    
+    for (const page of pagesToScrape) {
+        try {
+            const response = await fetch(page);
+            if (!response.ok) continue; // Skip if page doesn't exist yet
+            
+            const html = await response.text();
+            const parser = new DOMParser();
+            const doc = parser.parseFromString(html, 'text/html');
+            
+            // Find all article elements
+            const articles = doc.querySelectorAll('article[itemscope]');
+            
+            articles.forEach(article => {
+                // Get the link to the full post
+                const link = article.querySelector('a[href^="posts/"]');
+                if (!link) return;
+                
+                const url = link.getAttribute('href');
+                
+                // Skip if we've already added this post
+                if (seenUrls.has(url)) return;
+                seenUrls.add(url);
+                
+                // Extract post information
+                const title = article.querySelector('h2[itemprop="headline"]')?.textContent.trim() || '';
+                const description = article.querySelector('p[itemprop="description"]')?.textContent.trim() || '';
+                const date = article.querySelector('time')?.getAttribute('datetime') || '';
+                const author = article.querySelector('[itemprop="author"] [itemprop="name"]')?.textContent.trim() || '';
+                const category = article.querySelector('.category')?.textContent.trim() || '';
+                
+                // Create searchable text from all content
+                const allText = article.textContent.toLowerCase();
+                
+                posts.push({
+                    title: title,
+                    description: description,
+                    url: url,
+                    date: date,
+                    category: category,
+                    author: author,
+                    fullText: allText // For searching
+                });
+            });
+        } catch (error) {
+            console.log(`Skipping ${page}:`, error.message);
+        }
+    }
+    
+    return posts;
+}
+
+// Initialize posts database
+async function initializeSearch() {
+    postsDatabase = await loadPostsFromPages();
+    console.log(`Loaded ${postsDatabase.length} posts for search`);
+}
+
+function searchPosts() {
+    const searchInput = document.getElementById('searchInput');
+    const searchResults = document.getElementById('searchResults');
+    const query = searchInput.value.toLowerCase().trim();
+    
+    // Clear results if query is too short
+    if (query.length < 2) {
+        searchResults.innerHTML = '';
+        searchResults.style.display = 'none';
+        return;
+    }
+    
+    // If posts haven't loaded yet
+    if (postsDatabase.length === 0) {
+        searchResults.innerHTML = '<div class="search-result"><p>Loading posts...</p></div>';
+        searchResults.style.display = 'block';
+        return;
+    }
+    
+    // Search through all fields
+    const results = postsDatabase.filter(post => {
+        return post.title.toLowerCase().includes(query) ||
+               post.description.toLowerCase().includes(query) ||
+               post.category.toLowerCase().includes(query) ||
+               post.author.toLowerCase().includes(query) ||
+               post.fullText.includes(query);
+    });
+    
+    // Display results
+    if (results.length === 0) {
+        searchResults.innerHTML = '<div class="search-result"><p>No posts found matching "' + query + '"</p></div>';
+        searchResults.style.display = 'block';
+        return;
+    }
+    
+    let resultsHTML = '';
+    results.forEach(post => {
+        resultsHTML += `
+            <div class="search-result">
+                <h3><a href="${post.url}">${post.title}</a></h3>
+                <p class="search-meta">${post.date} • ${post.category}</p>
+                <p>${post.description.substring(0, 150)}...</p>
+            </div>
+        `;
+    });
+    
+    searchResults.innerHTML = resultsHTML;
+    searchResults.style.display = 'block';
+}
+
+// Initialize search functionality when page loads
+document.addEventListener('DOMContentLoaded', function() {
+    // Load posts from HTML pages
+    initializeSearch();
+    
+    const searchInput = document.getElementById('searchInput');
+    const searchButton = document.querySelector('.search-container button');
+    
+    if (searchInput) {
+        // Search on Enter key
+        searchInput.addEventListener('keyup', function(event) {
+            if (event.key === 'Enter') {
+                searchPosts();
+            }
+        });
+        
+        // Also search as user types (debounced for better performance)
+        let searchTimeout;
+        searchInput.addEventListener('input', function() {
+            clearTimeout(searchTimeout);
+            searchTimeout = setTimeout(searchPosts, 300);
+        });
+    }
+    
+    // Make sure button click works
+    if (searchButton) {
+        searchButton.addEventListener('click', searchPosts);
+    }
+});
+
+// Close search results when clicking outside
+document.addEventListener('click', function(event) {
+    const searchContainer = document.querySelector('.search-container');
+    const searchResults = document.getElementById('searchResults');
+    
+    if (searchContainer && searchResults && !searchContainer.contains(event.target)) {
+        searchResults.style.display = 'none';
+    }
+});

@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="All posts about Paper ASMR - page turning, folding, and paper sounds for relaxation.">
-    <title>Paper ASMR - ASMR for Sleep & Relaxation</title>
+    <meta name="description" content="Browse ASMR posts by category">
+    <title>Category - ASMR for Sleep & Relaxation</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
 </head>
@@ -26,26 +26,12 @@
     <main>
         <div class="category-page-header">
             <a href="categories.html" class="back-link">← All Categories</a>
-            <h2>Crinkly ASMR</h2>
-            <p>Page turning, folding, and paper manipulation sounds</p>
+            <h2 id="categoryTitle">Loading...</h2>
+            <p id="categoryDescription"></p>
         </div>
         
-        <article itemscope itemtype="https://schema.org/BlogPosting">
-            <h2 itemprop="headline">my first asmr video - paper, crinkly, liquid sounds (no talking)</h2>
-            <div class="meta">
-                <time datetime="2025-11-29" itemprop="datePublished">November 29, 2025</time> • 
-                <span itemprop="author" itemscope itemtype="https://schema.org/Person">
-                    <span itemprop="name">Joonie Mae</span>
-                </span>
-            </div>
-            <p itemprop="description">
-                Use 🎧headphones🎧 for the best experience! 10 different triggers featuring paper sounds, crinkly textures, 
-				liquid sounds, and more. No talking, just pure relaxing sounds for sleep, study, or stress relief.
-            </p>
-            <a href="posts/favorite-asmr-triggers-video.html">Watch →</a>
-        </article>
-        
-        <!-- Add more Paper ASMR posts here -->
+        <!-- Category posts will be dynamically loaded here -->
+        <div id="categoryPostsContainer"></div>
     </main>
     
     <footer>
@@ -56,5 +42,7 @@
             <a href="https://www.pinterest.com/jooniemaeasmr/">Pinterest</a>
         </p>
     </footer>
+    
+    <script src="js/category-loader.js"></script>
 </body>
 </html>
