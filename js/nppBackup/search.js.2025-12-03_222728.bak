@@ -5,7 +5,7 @@ const postsDatabase = [
         description: "Use 🎧headphones🎧 for the best experience! 10 different triggers featuring paper sounds, crinkly textures, liquid sounds, and more. No talking, just pure relaxing sounds for sleep, study, or stress relief.",
         url: "posts/favorite-asmr-triggers-video.html",
         date: "2025-11-29",
-        category: "Paper ASMR, Crinkly ASMR",
+        category: "Paper ASMR", "Crinkly ASMR"
         tags: ["paper", "sleep", "relaxation", "page turning", "crinkly", "tea", "book", "scroll", "video"]
     },
     {
@@ -26,9 +26,6 @@ const postsDatabase = [
     }
     // Add more posts as you create them
 ];
-
-console.log("✅ Search script loaded!");
-console.log("📚 Total posts in database:", postsDatabase.length);
 
 function searchPosts() {
     const searchInput = document.getElementById('searchInput');
