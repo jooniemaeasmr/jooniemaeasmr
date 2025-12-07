@@ -10,7 +10,7 @@
     <meta property="og:type" content="website">
     <meta property="og:title" content="ASMR for Sleep & Relaxation">
     <meta property="og:description" content="No-talking ASMR trigger videos for sleep and relaxation. Featuring paper, writing, scratching, and crinkly sounds.">
-    <meta property="og:url" content="https://jooniemaeasmr.com">
+    <meta property="og:url" content="https://jooniemaeasmr.github.io">
     
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="ASMR for Sleep & Relaxation">
@@ -27,7 +27,7 @@
         "@type": "Blog",
         "name": "ASMR for Sleep & Relaxation",
         "description": "No-talking ASMR trigger videos for sleep and relaxation",
-        "url": "jooniemaeasmr.com",
+        "url": "https://jooniemaeasmr.github.io/jooniemaeasmr/",
         "author": {
             "@type": "Person",
             "name": "Joonie Mae"

@@ -22,7 +22,7 @@
         "@type": "Blog",
         "name": "ASMR for Sleep & Relaxation",
         "description": "No-talking ASMR trigger videos for sleep and relaxation",
-        "url": "jooniemaeasmr.com",
+        "url": "https://jooniemaeasmr.github.io/jooniemaeasmr/",
         "author": {
             "@type": "Person",
             "name": "Joonie Mae"
