@@ -19,7 +19,7 @@ const postsDatabase = [
 	{
         title: "asmr with apple earbud mic  - crunching notebook pages, cursive writing asmr",
         description: "Watch with headphones for the best experience🎧. Crunchy paper sounds, squishing, page turning water-damaged pages.",
-        url: "posts/2025/dec/crinkly-notebook-asmr-video.html",
+        url: "posts/2025/dec/crinkly-notebook-asmr.html",
         date: "2025-12-06",
         category: "Writing ASMR, Crinkly ASMR, Paper ASMR",
         tags: ["writing", "pen", "paper", "sleep", "relaxation", "apple earbud" "bad mic" "notebook", "turning pages", "page turning" "crunchy sounds"]

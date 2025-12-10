@@ -13,18 +13,9 @@ const postsDatabase = [
         description: "I remember the exact moment the realization hit: this wasn't going to happen. All that time spent waiting to hear back was wasted. I felt lost.",
         url: "posts/2025/dec/breakdown-breakthrough-creative-dream.html",
         date: "2025-12-04",
-        category: "Other",
-        tags: ["writing", "pen", "paper", "creative project", "starting a business", "experiment"]
+        category: "Writing ASMR",
+        tags: ["writing", "pen", "paper", "meditation"]
     },
-	{
-        title: "asmr with apple earbud mic  - crunching notebook pages, cursive writing asmr",
-        description: "Watch with headphones for the best experience🎧. Crunchy paper sounds, squishing, page turning water-damaged pages.",
-        url: "posts/2025/dec/crinkly-notebook-asmr-video.html",
-        date: "2025-12-06",
-        category: "Writing ASMR, Crinkly ASMR, Paper ASMR",
-        tags: ["writing", "pen", "paper", "sleep", "relaxation", "apple earbud" "bad mic" "notebook", "turning pages", "page turning" "crunchy sounds"]
-    },
-
 
     // Add more posts as you create them
 ];

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Watch this relaxing paper sounds ASMR video for sleep and relaxation.">
+    <meta name="keywords" content="ASMR video, paper sounds, sleep, relaxation">
+    <meta name="author" content="Joonie Mae">
+    
+    <meta property="og:type" content="video.other">
+    <meta property="og:title" content="asmr with apple earbud mic  - crunching notebook pages, cursive writing asmr">
+    <meta property="og:description" content="crunchy paper sounds, squishing, page turning water-damaged pages">
+    <meta property="og:url" content="https://jooniemaeasmr.com/posts/favorite-asmr-triggers.html">
+    
+    <title>asmr with apple earbud mic  - crunching notebook pages, cursive writing asmr</title>
+    
+    <link rel="stylesheet" href="../../../css/style.css">
+    <link rel="icon" href="../assets/favicon.ico" type="image/x-icon">
+    
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "VideoObject",
+        "name": "asmr with apple earbud mic  - crunching notebook pages, cursive writing asmr",
+        "description": "crunchy paper sounds, squishing, page turning water-damaged pages",
+        "uploadDate": "2025-12-06",
+        "thumbnailUrl": "https://jooniemaeasmr.com/images/thumbnails/CrinklyNotebook_01_Cover.jpg",
+        "contentUrl": "https://jooniemaeasmr.com/posts/crinkly-notebook-asmr.html"
+    }
+    </script>
+</head>
+<body>
+    <header>
+        <h1>ASMR for Sleep & Relaxation</h1>
+        <p>No-talking trigger videos • Paper • Writing • Scratching • Crinkly Sounds</p>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+			<li><a href="../videos.html">Videos</a></li>
+			<li><a href="../archive.html">Archive</a></li>
+            <li><a href="../about.html">About</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <article class="video-post">
+            <a href="../videos.html" class="back-link">← Back to all videos</a>
+            
+            <h2>asmr with apple earbud mic  - crunching notebook pages, cursive writing asmr</h2>
+            <div class="meta">
+                <time datetime="2025-12-06">December 6, 2025</time> • Joonie Mae
+                <span class="category">Paper ASMR</span>
+            </div>
+            
+            <!-- YouTube Video Embed -->
+            <div class="video-container">
+				<iframe width="667" height="375" 
+				src="https://www.youtube.com/embed/UyoyFUUzfu0" 
+				title="asmr with apple earbud mic  - crunching notebook pages, cursive writing asmr" 
+				frameborder="0" 
+				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+				referrerpolicy="strict-origin-when-cross-origin" 
+				allowfullscreen>
+				</iframe>
+            </div>
+            
+            <div class="video-description">
+                <h3>About This Video</h3>
+                <p>
+                    Watch with headphones for the best experience🎧. Crunchy paper sounds, squishing, page turning water-damaged pages.
+                </p>
+                
+                <h3>Timestamps</h3>
+                <ul class="timestamps">
+                    <li><a href="https://youtu.be/UyoyFUUzfu0" target="_blank">0:00</a> - crunchy paper flips and squishing water damaged pages/notebook</li>
+                    <li><a href="https://youtu.be/UyoyFUUzfu0?t=491" target="_blank">8:11</a> - writing with a fountain pen in crinkly notebook and pages</li>
+                    <li><a href="https://youtu.be/UyoyFUUzfu0?t=1119" target="_blank">18:39</a> - writing with a HB2 pencil inside crinkly notebook and pages</li>
+                    <li><a href="https://youtu.be/UyoyFUUzfu0?t=1442" target="_blank">24:00 </a> - squishing and smoothing out paper, crunchy and crinkly sounds</li>
+                </ul>
+                
+                <h3>What You'll Hear</h3>
+                <ul>
+                    <li>Crinkly page turning sounds</li>
+                    <li>Crunchy paper manipulation and squishing</li>
+                    <li>Delicate paper scratching with fountain pen and pencil</li>
+                    <li>Various paper textures and movements</li>
+                </ul>
+                
+                <div class="video-cta">
+                    <p>If you enjoyed this video, please consider:</p>
+                    <a href="https://www.youtube.com/@JoonieMaeASMR" target="_blank" class="cta-button">Subscribe on YouTube</a>
+                </div>
+            </div>
+        </article>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 Joonie Mae. All rights reserved.</p>
+        <p>
+            <a href="https://www.youtube.com/@JoonieMaeASMR" target="_blank" rel="noopener">YouTube</a> • 
+            <a href="https://twitter.com/yourusername" target="_blank" rel="noopener">Spotify | Podcast</a> • 
+			<a href="https://bsky.app/profile/jooniemaeasmr.bsky.social">BlueSky</a> • 
+            <a href="https://www.pinterest.com/jooniemaeasmr/">Pinterest</a>
+        </p>
+    </footer>
+</body>
+</html>
