@@ -33,25 +33,25 @@
             <div class="category-card">
                 <h3>Paper ASMR</h3>
                 <p>Page turning, folding, and paper manipulation sounds</p>
-                <a href="category-paper.html" class="category-link">View posts (3) →</a>
+                <a href="category-paper.html" class="category-link">View posts (1) →</a>
             </div>
             
             <div class="category-card">
                 <h3>Writing ASMR</h3>
                 <p>Pen on paper, pencil scratching, and calligraphy sounds</p>
-                <a href="category-writing.html" class="category-link">View posts (1) →</a>
+                <a href="category-writing.html" class="category-link">View posts (0) →</a>
             </div>
             
             <div class="category-card">
                 <h3>Scratching ASMR</h3>
                 <p>Gentle scratching on various surfaces and textures</p>
-                <a href="category-scratching.html" class="category-link">View posts (1) →</a>
+                <a href="category-scratching.html" class="category-link">View posts (0) →</a>
             </div>
             
             <div class="category-card">
                 <h3>Crinkly ASMR</h3>
                 <p>Tissue paper, plastic, and other crinkly materials</p>
-                <a href="category-crinkly.html" class="category-link">View posts (2) →</a>
+                <a href="category-crinkly.html" class="category-link">View posts (1) →</a>
             </div>
 			
 			<div class="category-card">
@@ -61,9 +61,9 @@
             </div>
 			
 			<div class="category-card">
-                <h3>Bad Microphone ASMR</h3>
+                <h3>Bad Microhpone ASMR</h3>
                 <p>Videos filmed with a earbud microphone</p>
-                <a href="category-crinkly.html" class="category-link">View posts (1) →</a>
+                <a href="category-crinkly.html" class="category-link">View posts (0) →</a>
             </div>
         </div>
     </main>
