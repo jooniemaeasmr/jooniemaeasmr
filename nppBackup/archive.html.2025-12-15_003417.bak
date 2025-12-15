@@ -21,13 +21,6 @@
             <li><a href="about.html">About</a></li>
         </ul>
     </nav>
-	
-	<!-- Search Bar -->
-    <div class="search-container">
-        <input type="text" id="searchInput" placeholder="Search archive..." />
-        <button onclick="searchPosts()">Search</button>
-        <div id="searchResults"></div>
-    </div>
     
     <main>
         <div class="archive-header">
@@ -75,6 +68,5 @@
             <a href="https://www.pinterest.com/jooniemaeasmr/">Pinterest</a>
         </p>
     </footer>
-	<script src="js/search.js"></script>
 </body>
 </html>

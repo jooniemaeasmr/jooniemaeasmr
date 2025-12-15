@@ -24,7 +24,7 @@
 	
 	<!-- Search Bar -->
     <div class="search-container">
-        <input type="text" id="searchInput" placeholder="Search archive..." />
+        <input type="text" id="searchInput" placeholder="Search posts..." />
         <button onclick="searchPosts()">Search</button>
         <div id="searchResults"></div>
     </div>
