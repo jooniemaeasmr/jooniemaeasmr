@@ -143,10 +143,10 @@
         
         <!-- Pagination -->
         <div class="pagination">
-            <span class="page-info">Page 1 of 2</span>
+            <span class="page-info">Page 1 of 1</span>
             <div class="page-links">
                 <a href="#" class="disabled">← Previous</a>
-                <a href="page2.html">Next →</a>
+                <a href="">Next →</a>
             </div>
         </div>
     </main>

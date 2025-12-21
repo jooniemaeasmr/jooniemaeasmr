@@ -42,7 +42,7 @@ const postsDatabase = [
     },
 	
         title: "The Courage to be Disliked in Hyunam-Dong Bookshop",
-        description: "There's this quiet emphasis on the strength of pivoting in life and the okayness of not striving for conventional success; to not try as hard as everyone says you should. There's a beauty in slowly figuring yourself out even though it can be brutal in a world where they seek to punish you for your individuality",
+        description: "",
         url: "posts/2025/dec/courage-dislike-bookshop-book-thoughts.html",
         date: "2025-12-21",
         category: "Other",

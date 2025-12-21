@@ -36,7 +36,7 @@
         <!-- Posts 4-6 would go here -->
         
         <div class="pagination">
-            <span class="page-info">Page 2 of 2</span>
+            <span class="page-info">Page 2 of 5</span>
             <div class="page-links">
                 <a href="index.html">← Previous</a>
                 <a href="">Next →</a>

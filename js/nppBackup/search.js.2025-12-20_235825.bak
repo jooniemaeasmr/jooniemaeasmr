@@ -35,18 +35,18 @@ const postsDatabase = [
 	
         title: "This is Your Permission to Take Your Dreams by the Neck",
         description: "Here's what no one tells you about survival mode: sometimes the thing that feels like safety is actually the thing that will destroy you.",
-        url: "posts/2025/dec/permission-dreams-neck.html",
-        date: "2025-12-21",
-        category: "Other",
-        tags: ["writing", "creative project", "starting a business", "dreams", "dream job", "experiment", "permission", "surival", "job", "side hustle", "chasing dreams", "fast food job", "working two jobs"]
+        url: "posts/2025/dec/paper-scroll-crunching-asmr-video.html",
+        date: "2025-12-13",
+        category: "Crinkly ASMR, Paper ASMR",
+        tags: ["writing", "kraft", "paper", "sleep", "relaxation", "apple earbud" ,"bad mic", "notebook", "turning pages", "page turning", "crunchy sounds", "tarot", "tissue box"]
     },
 	
-        title: "The Courage to be Disliked in Hyunam-Dong Bookshop",
-        description: "There's this quiet emphasis on the strength of pivoting in life and the okayness of not striving for conventional success; to not try as hard as everyone says you should. There's a beauty in slowly figuring yourself out even though it can be brutal in a world where they seek to punish you for your individuality",
-        url: "posts/2025/dec/courage-dislike-bookshop-book-thoughts.html",
-        date: "2025-12-21",
-        category: "Other",
-        tags: ["book review", "books", "book thoughts", "notes on a book", "reflection", "personal essays", "bookshops", "nonfiction", "fiction", "books about books", "essays about books"]
+        title: "",
+        description: "Watch with headphones for the best experience. Crunchy paper sounds, squishing, page turning water-damaged pages and kraft paper.",
+        url: "posts/2025/dec/paper-scroll-crunching-asmr-video.html",
+        date: "2025-12-13",
+        category: "Crinkly ASMR, Paper ASMR",
+        tags: ["writing", "kraft", "paper", "sleep", "relaxation", "apple earbud" ,"bad mic", "notebook", "turning pages", "page turning", "crunchy sounds", "tarot", "tissue box"]
     },
 
 
