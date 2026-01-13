@@ -44,13 +44,14 @@
     <nav>
         <ul>
             <li><a href="index.html">Home</a></li>
+			<li><a href="archive.html">Archive</a></li>
             <li><a href="about.html">About</a></li>
         </ul>
     </nav>
     
     <!-- Search Bar -->
     <div class="search-container">
-        <input type="text" id="searchInput" placeholder="To view all articles or videos...type 'article' or 'video' here" />
+        <input type="text" id="searchInput" placeholder="Search posts..." />
         <button onclick="searchPosts()">Search</button>
         <div id="searchResults"></div>
     </div>
@@ -152,6 +153,7 @@
         <p>&copy; 2026 Joonie Mae ASMR. All rights reserved.</p>
         <p>
             <a href="https://www.youtube.com/@JoonieMaeASMR" target="_blank" rel="noopener">YouTube</a> • 
+            <a href="" target="_blank" rel="noopener">Spotify | Podcast</a> • 
 			<a href="https://www.quora.com/profile/Joonie-Mae" target="_blank" rel="noopener">Quora</a> • 
 			<a href="https://thecreativeinprogresslab.quora.com/" target="_blank" rel="noopener">The Creative In-Progress Publication</a> • 
 			<a href="https://medium.com/@jooniemae" target="_blank" rel="noopener">Medium</a> •

@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Watch this relaxing paper sounds ASMR video for sleep and relaxation.">
     <meta name="keywords" content="ASMR video, paper sounds, sleep, relaxation">
-    <meta name="author" content="Joonie Mae">
+    <meta name="author" content="Joonie mae">
     
     <meta property="og:type" content="video.other">
-    <meta property="og:title" content="Paper Sounds for Deep Sleep - ASMR Video">
+    <meta property="og:title" content="[cozy asmr]🍫50 min tingly fast aggressive tapping asmr (no talking) | lotion lid, candles, chocolate - ASMR Video">
     <meta property="og:description" content="Watch this relaxing paper sounds ASMR video for sleep and relaxation.">
-    <meta property="og:url" content="https://jooniemaeasmr.github.io/posts/video-paper-sounds.html">
+    <meta property="og:url" content="https://yourusername.github.io/posts/fast-tapping-triggers.html">
     
-    <title>Paper Sounds for Deep Sleep - ASMR Video</title>
+    <title>[cozy asmr]🍫50 min tingly fast aggressive tapping asmr (no talking) | lotion lid, candles, chocolate - ASMR Video</title>
     
     <link rel="stylesheet" href="../css/style.css">
     <link rel="icon" href="../assets/favicon.ico" type="image/x-icon">
@@ -25,7 +25,7 @@
         "description": "Relaxing paper sounds ASMR video for sleep and relaxation",
         "uploadDate": "2026-12-01",
         "thumbnailUrl": "https://img.youtube.com/vi/YOUR_VIDEO_ID/maxresdefault.jpg",
-        "contentUrl": "https://jooniemaeasmr.github.io/posts/video-paper-sounds.html"
+        "contentUrl": "https://yourusername.github.io/posts/video-paper-sounds.html"
     }
     </script>
 </head>
@@ -38,6 +38,7 @@
     <nav>
         <ul>
             <li><a href="../index.html">Home</a></li>
+			<li><a href="../archive.html">Archive</a></li>
             <li><a href="../about.html">About</a></li>
         </ul>
     </nav>
@@ -46,16 +47,16 @@
         <article class="video-post">
             <a href="../videos.html" class="back-link">← Back to all videos</a>
             
-            <h2>Paper Sounds for Deep Sleep</h2>
+            <h2>[cozy asmr]🍫50 min tingly fast aggressive tapping asmr (no talking) | lotion lid, candles, chocolate</h2>
             <div class="meta">
-                <time datetime="2026-12-01">January 1, 2026</time> • Joonie Mae
+                <time datetime="2026-01-03">January 3, 2026</time> • Joonie Mae
                 <span class="category">Paper ASMR</span>
             </div>
             
             <!-- YouTube Video Embed -->
             <div class="video-container">
                 <iframe 
-                    src="https://www.youtube.com/embed/YOUR_VIDEO_ID" 
+                    src="https://youtu.be/jNxk0dDhB44" 
                     title="Paper Sounds for Deep Sleep ASMR" 
                     frameborder="0" 
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
@@ -72,28 +73,52 @@
                 </p>
                 
                 
+                <h3>What You'll Hear</h3>
+                <ul>
+                    <li>Gentle page turning sounds</li>
+                    <li>Soft paper folding and crinkling</li>
+                    <li>Delicate paper scratching</li>
+                    <li>Various paper textures and movements</li>
+                </ul>
                 
                 <div class="video-cta">
                     <p>If you enjoyed this video, please consider:</p>
-                    <a href="https://youtube.com/@yourchannel" target="_blank" class="cta-button">Subscribe on YouTube</a>
-                    <a href="https://www.youtube.com/watch?v=YOUR_VIDEO_ID" target="_blank" class="cta-button secondary">Watch on YouTube</a>
+                    <a href="https://youtube.com/@jooniemaeasmr" target="_blank" class="cta-button">Subscribe on YouTube</a>
+                    <a href="https://youtu.be/jNxk0dDhB44" target="_blank" class="cta-button secondary">Watch on YouTube</a>
                 </div>
             </div>
             
-            
+            <!-- Related Videos -->
+            <div class="related-videos">
+                <h3>More ASMR Videos</h3>
+                <div class="video-grid">
+                    <div class="video-card">
+                        <a href="video-writing-meditation.html">
+                            <img src="../images/thumb-writing.jpg" alt="Writing ASMR thumbnail">
+                            <h4>Writing Sounds</h4>
+                            <p>30 minutes of pen on paper</p>
+                        </a>
+                    </div>
+                    <div class="video-card">
+                        <a href="video-crinkly-sounds.html">
+                            <img src="../images/thumb-crinkly.jpg" alt="Crinkly ASMR thumbnail">
+                            <h4>Crinkly Textures</h4>
+                            <p>45 minutes of crinkly sounds</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
         </article>
     </main>
     
     <footer>
-        <p>&copy; 2026 Joonie Mae ASMR. All rights reserved.</p>
+        <p>&copy; 2025 Joonie Mae ASMR. All rights reserved.</p>
         <p>
             <a href="https://www.youtube.com/@JoonieMaeASMR" target="_blank" rel="noopener">YouTube</a> • 
-			<a href="https://www.quora.com/profile/Joonie-Mae" target="_blank" rel="noopener">Quora</a> • 
-			<a href="https://thecreativeinprogresslab.quora.com/" target="_blank" rel="noopener">The Creative In-Progress Publication</a> • 
-			<a href="https://medium.com/@jooniemae" target="_blank" rel="noopener">Medium</a> •
-			<a href="https://www.linkedin.com/in/joonie-mae/" target="_blank" rel="noopener">LinkedIn</a> •
+            <a href="" target="_blank" rel="noopener">Spotify | Podcast</a> • 
             <a href="https://www.pinterest.com/jooniemaeasmr/" target="_blank" rel="noopener">Pinterest</a> •
 			<a href="https://ko-fi.com/jooniemaeasmr" target="_blank" rel="noopener">Donate</a>
+        </p>
     </footer>
 </body>
 </html>

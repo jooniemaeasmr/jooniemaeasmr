@@ -44,13 +44,14 @@
     <nav>
         <ul>
             <li><a href="index.html">Home</a></li>
+			<li><a href="archive.html">Archive</a></li>
             <li><a href="about.html">About</a></li>
         </ul>
     </nav>
     
     <!-- Search Bar -->
     <div class="search-container">
-        <input type="text" id="searchInput" placeholder="To view all articles or videos...type 'article' or 'video' here" />
+        <input type="text" id="searchInput" placeholder="Search posts..." />
         <button onclick="searchPosts()">Search</button>
         <div id="searchResults"></div>
     </div>
@@ -59,21 +60,6 @@
         <div class="posts-header">
             <h2>Recent Posts</h2>
         </div>
-		
-		<article itemscope itemtype="https://schema.org/BlogPosting">
-            <h2 itemprop="headline">The Courage to be Disliked in Hyunam-Dong Bookshop</h2>
-            <div class="meta">
-                <time datetime="2025-12-21" itemprop="datePublished">December 21, 2025</time> • 
-                <span itemprop="author" itemscope itemtype="https://schema.org/Person">
-                    <span itemprop="name">Joonie Mae</span>
-                </span>
-                <span class="category">Other</span>
-            </div>
-            <p itemprop="description">
-                There's this quiet emphasis on the strength of pivoting in life and the okayness of not striving for conventional success; to not try as hard as everyone says you should. There's a beauty in slowly figuring yourself out even though it can be brutal in a world where they seek to punish you for your individuality
-            </p>
-            <a href="posts/2025/dec/courage-dislike-bookshop-book-thoughts.html">Read more →</a>
-        </article>
 		
 		<article itemscope itemtype="https://schema.org/BlogPosting">
             <h2 itemprop="headline">This is Your Permission to Take Your Dreams by the Neck</h2>
@@ -135,6 +121,23 @@
             </p>
             <a href="posts/2025/dec/breakdown-breakthrough-creative-dream.html">Read more →</a>
         </article>
+		
+		<article itemscope itemtype="https://schema.org/BlogPosting">
+            <h2 itemprop="headline">my first asmr video - paper, crinkly, liquid sounds (no talking)</h2>
+            <div class="meta">
+                <time datetime="2025-11-29" itemprop="datePublished">November 29, 2025</time> • 
+                <span itemprop="author" itemscope itemtype="https://schema.org/Person">
+                    <span itemprop="name">Joonie Mae</span>
+                </span>
+                <span class="category">Paper ASMR</span>
+				<span class="category">Crinkly ASMR</span>
+            </div>
+            <p itemprop="description">
+                Use 🎧headphones🎧 for the best experience! 10 different triggers featuring paper sounds, crinkly textures, 
+				liquid sounds, and more. No talking, just pure relaxing sounds for sleep, study, or stress relief.
+            </p>
+            <a href="posts/2025/nov/favorite-asmr-triggers-video.html">Watch →</a>
+        </article>
         
         
         
@@ -149,13 +152,10 @@
     </main>
     
     <footer>
-        <p>&copy; 2026 Joonie Mae ASMR. All rights reserved.</p>
+        <p>&copy; 2025 Joonie Mae ASMR. All rights reserved.</p>
         <p>
             <a href="https://www.youtube.com/@JoonieMaeASMR" target="_blank" rel="noopener">YouTube</a> • 
-			<a href="https://www.quora.com/profile/Joonie-Mae" target="_blank" rel="noopener">Quora</a> • 
-			<a href="https://thecreativeinprogresslab.quora.com/" target="_blank" rel="noopener">The Creative In-Progress Publication</a> • 
-			<a href="https://medium.com/@jooniemae" target="_blank" rel="noopener">Medium</a> •
-			<a href="https://www.linkedin.com/in/joonie-mae/" target="_blank" rel="noopener">LinkedIn</a> •
+            <a href="" target="_blank" rel="noopener">Spotify | Podcast</a> • 
             <a href="https://www.pinterest.com/jooniemaeasmr/" target="_blank" rel="noopener">Pinterest</a> •
 			<a href="https://ko-fi.com/jooniemaeasmr" target="_blank" rel="noopener">Donate</a>
         </p>
