@@ -17,6 +17,8 @@
     <nav>
         <ul>
             <li><a href="index.html">Home</a></li>
+			<li><a href="videos.html">Videos</a></li>
+			<li><a href="archive.html">Archive</a></li>
             <li><a href="about.html">About</a></li>
         </ul>
     </nav>
@@ -51,13 +53,11 @@
     </main>
     
     <footer>
-        <p>&copy; 2026 Joonie Mae ASMR. All rights reserved.</p>
+        <p>&copy; 2025 Joonie Mae ASMR. All rights reserved.</p>
         <p>
             <a href="https://www.youtube.com/@JoonieMaeASMR" target="_blank" rel="noopener">YouTube</a> • 
-			<a href="https://www.quora.com/profile/Joonie-Mae" target="_blank" rel="noopener">Quora</a> • 
-			<a href="https://thecreativeinprogresslab.quora.com/" target="_blank" rel="noopener">The Creative In-Progress Lab</a> • 
-			<a href="https://medium.com/@jooniemae" target="_blank" rel="noopener">Medium</a> •
-			<a href="https://www.linkedin.com/in/joonie-mae/" target="_blank" rel="noopener">LinkedIn</a> •
+            <a href="" target="_blank" rel="noopener">Spotify | Podcast</a> • 
+			<a href="https://jooniemae.substack.com" target="_blank" rel="noopener">Weekly Update</a> •
             <a href="https://www.pinterest.com/jooniemaeasmr/" target="_blank" rel="noopener">Pinterest</a> •
 			<a href="https://ko-fi.com/jooniemaeasmr" target="_blank" rel="noopener">Donate</a>
         </p>
